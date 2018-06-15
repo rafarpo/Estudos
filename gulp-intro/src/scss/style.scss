@@ -1,7 +1,46 @@
-.card {
-  background-color: red;
+@charset "UTF-8";
 
-  &__title {
-    color: white;
-  }
+/* Variaveis */
+$azul-escuro: #2c3e50;
+$azul-claro: #cdcdcd;
+$branco: #fff;
+
+
+body {
+	padding:70px 0 0 0;
+}
+
+.jumbotron {
+	color:$azul-escuro;
+}
+.navbar {
+	background:$azul-escuro;
+	color:$branco;
+}
+.navbar-light .navbar-brand {
+	color:$branco;
+	&:hover {
+		color:$azul-claro;
+	}
+	&:focus {
+		color:$azul-claro;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+	color:$branco;
+	&:hover {
+		color:$azul-claro;
+	}
+	&:focus {
+		color:$azul-claro;
+	}
+}
+.navbar-light .navbar-nav .active>.nav-link {
+	color:$branco;
+	&:hover {
+		color:$azul-claro;
+	}
+	&:focus {
+		color:$azul-claro;
+	}
 }
